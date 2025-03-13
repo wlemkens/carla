@@ -171,8 +171,8 @@ carla_dependency_option (BOOST_GIL_BUILD_HEADER_TESTS OFF)
 carla_dependency_add(
   boost
   ${CARLA_BOOST_TAG}
-  https://github.com/boostorg/boost/releases/download/${CARLA_BOOST_TAG}/${CARLA_BOOST_TAG}.zip
   https://github.com/boostorg/boost.git
+  https://github.com/boostorg/boost/releases/download/${CARLA_BOOST_TAG}/${CARLA_BOOST_TAG}.tar.gz
 )
 
 
